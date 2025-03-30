@@ -51,5 +51,4 @@ test('Testando get_num_respostas', async () => {
 
   const num = await modelo.get_num_respostas(pergunta.id_pergunta);
   expect(num).toBe(2);
-});t(perguntas[1].id_pergunta).toBe(perguntas[2].id_pergunta-1);
-
+});
